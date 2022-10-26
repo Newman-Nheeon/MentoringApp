@@ -1,1 +1,0 @@
-# LRI_Mentoring-Software

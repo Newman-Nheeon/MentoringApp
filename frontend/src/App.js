@@ -9,6 +9,6 @@ const MainApp = () => (
          <Route path="/" component={App} />
       </Switch>
 	</Router>
-   );
+);
 
 export default MainApp;

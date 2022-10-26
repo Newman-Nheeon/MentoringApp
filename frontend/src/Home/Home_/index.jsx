@@ -33,8 +33,8 @@ class Home extends Component {
           <div className="container">
             <div className="banner-wrapper m-auto text-center">
               <div className="banner-header">
-                <h1>Life Ready Individuals<span>(LRI)</span></h1>
-                <p>Experience the transformative power in Mentoring</p>
+                <h1>Search Teacher in <span>Mentoring Appointment</span></h1>
+                <p>Discover the best Mentors &amp; institutions the city nearest to you.</p>
               </div>
               {/* Search */}
               <div className="search-box">
@@ -42,8 +42,8 @@ class Home extends Component {
                   <div className="form-group search-location">
                     <input type="text" className="form-control" placeholder="Search Location" />
                   </div>
-                  <div className="form-group search-person-circle">
-                    <input type="text" className="form-control" placeholder="Search Mentors" />
+                  <div className="form-group search-info">
+                    <input type="text" className="form-control" placeholder="Search School, Online educational centers, etc" />
                   </div>
                   <button type="submit" className="btn btn-primary search-btn" onClick={()=>this.searchmentee()}><i><img src={Submit} alt="" /></i> <span>Search</span></button>
                 </form>

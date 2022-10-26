@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import Main from "./App";
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<Main/>, document.getElementById('app'));
 
 if (module.hot) { // enables hot module replacement if plugin is installed
  module.hot.accept();
