@@ -1,6 +1,6 @@
 // export default imagepaths
 
-export {default as AppLogo} from '../Home/assets/img/logo.png';
+export {default as AppLogo} from '../Home/assets/img/nwn.svg';
 export {default as Submit} from '../Home/assets/img/search-submit.png';
 export {default as Video_Call} from '../Home/assets/img/video-call.jpg';
 export {default as ICON_1} from '../Home/assets/img/icon-1.png';

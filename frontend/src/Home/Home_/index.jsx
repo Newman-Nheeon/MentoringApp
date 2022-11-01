@@ -33,17 +33,20 @@ class Home extends Component {
           <div className="container">
             <div className="banner-wrapper m-auto text-center">
               <div className="banner-header">
-                <h1>Search Teacher in <span>Mentoring Appointment</span></h1>
-                <p>Discover the best Mentors &amp; institutions the city nearest to you.</p>
+                <h1>Life Ready Individual<span>(LRI)</span> Programme</h1>
+                <p>A Platform For young People to Discover &amp; Express Their Unique Personalities</p>
               </div>
+
+
+
               {/* Search */}
               <div className="search-box">
-                <form action="/app/Pages/search">
+                <form>
                   <div className="form-group search-location">
                     <input type="text" className="form-control" placeholder="Search Location" />
                   </div>
                   <div className="form-group search-info">
-                    <input type="text" className="form-control" placeholder="Search School, Online educational centers, etc" />
+                    <input type="text" className="form-control" placeholder="Search Mentor" />
                   </div>
                   <button type="submit" className="btn btn-primary search-btn" onClick={()=>this.searchmentee()}><i><img src={Submit} alt="" /></i> <span>Search</span></button>
                 </form>
@@ -58,7 +61,7 @@ class Home extends Component {
             <div className="section-header text-center">
               <span>Mentoring Flow</span>
               <h2>How does it works ?</h2>
-              <p className="sub-title">Are you looking to join online institutions? Now it's very simple, Sign up with mentoring</p>
+              <p className="sub-title">Participate in the NWN 1 Year LRI Structured Mentoring Programme </p>
             </div>
             <div className="row">
               <div className="col-12 col-md-6 col-lg-4">
@@ -72,7 +75,7 @@ class Home extends Component {
                       <div className="feature-text">Sign up</div>
                     </div>
                   </div>
-                  <p className="mb-0">Are you looking to join online Learning? Now it's very simple, Now Sign up</p>
+                  <p className="mb-0">Are you looking to participate in a life transforming Mentoring Programme? Good News! it's very simple, Sign up Now</p>
                 </div>
               </div>
               <div className="col-12 col-md-6 col-lg-4">
@@ -83,10 +86,10 @@ class Home extends Component {
                       <i><img src={ICON_2} alt="" /></i>
                     </div>	
                     <div className="feature-cont">
-                      <div className="feature-text">Collaborate</div>
+                      <div className="feature-text">Get Assigned to a Mentor</div>
                     </div>
                   </div>
-                  <p className="mb-0">Collaborate on your own timing, by scheduling with mentor booking</p>
+                  <p className="mb-0">Get in Contact with your Assigned Mentor, Collaborate on your own timing, scheduling with MeetUps with mentor</p>
                 </div>
               </div>
               <div className="col-12 col-md-6 col-lg-4">
@@ -100,7 +103,7 @@ class Home extends Component {
                       <div className="feature-text">Improve &amp; Get Back</div>
                     </div>
                   </div>
-                  <p className="mb-0">you can gather different skill set, and you can become mentor too</p>
+                  <p className="mb-0">Discover Your Uniquesness, gather different skill set, Build Networking and Community development, and you can become mentor</p>
                 </div>
               </div>
             </div>
@@ -110,8 +113,8 @@ class Home extends Component {
           <div className="container">
             <div className="section-header text-center">
               <span>Mentoring Goals</span>
-              <h2>Popular Mentors</h2>
-              <p className="sub-title">Do you want to move on next step? Choose your most popular leaning mentors, it will help you to achieve your professional goals.</p>
+              <h2>Mentors</h2>
+              <p className="sub-title">Sneak Peak at Our Popular Learning Mentors that will help you to achieve your goals.</p>
             </div>
             {/* <div className="owl-carousel owl-theme"> */}
             <OwlCarousel className='owl-theme' loop margin={30} items={4} responsive={{

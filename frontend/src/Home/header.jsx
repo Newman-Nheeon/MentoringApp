@@ -54,11 +54,24 @@ class Header extends Component {
 					<i className="fas fa-times" />
 					</a>
 				</div>
+
+				{/* Navigation Menu */}
+
 				<ul className="main-nav">
 					<li className={pathname.includes('index') ?"active" :""} >
 					<Link to="/app/index">Home</Link>
 					</li>
-					<li className={pathname.includes('/Mentor/dashboard') || pathname.includes('Mentor/bookings') ||pathname.includes('schedule-timings')
+
+					<li className={pathname.includes('index') ?"active" :""} >
+					<Link to="/app/index">Why LRI?</Link>
+					</li>
+
+					<li className={pathname.includes('index') ?"active" :""} >
+					<Link to="/app/index">Contact</Link>
+					</li>
+
+
+					{/* <li className={pathname.includes('/Mentor/dashboard') || pathname.includes('Mentor/bookings') ||pathname.includes('schedule-timings')
 						 ||pathname.includes('/Mentor/chat')||pathname.includes('invoice')||pathname.includes('reviews')||pathname.includes('/Mentor/blog') 
 						 ||pathname.includes('/Mentor/profile-settings')||pathname.includes('mentor-register') ||
 						 pathname.includes('profile-mentee') ||pathname.includes('mentee-list') ||
@@ -146,7 +159,9 @@ class Header extends Component {
 					</li>
 					<li>
 					<a href="/template/admin/index" target="_blank">Admin</a>
-					</li>
+					</li> */}
+
+
 					<li className="login-link">
 					<Link to="/login">Login / Signup</Link>
 					</li>
