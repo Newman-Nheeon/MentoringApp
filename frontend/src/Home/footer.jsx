@@ -17,7 +17,7 @@ const Footer = () => {
                     <img src={AppLogo} alt="logo" />
                   </div>
                   <div className="footer-about-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p>NWN commits to actively reaching out to the younger generation. We organize events and hangouts to impart members with cogent skills and information necessary to lead a wholesome life in an ever-evolving world. We define a wholesome life as one where relationships, work, and leisure are in good balance. </p>
                     <div className="social-icon">
                       <ul>
                         <li>
@@ -76,15 +76,15 @@ const Footer = () => {
                   <div className="footer-contact-info">
                     <div className="footer-address">
                       <span><i className="fas fa-map-marker-alt" /></span>
-                      <p> 3556  Beech Street, San Francisco,<br /> California, CA 94108 </p>
+                      <p> 27, Egbeda-Idimu Road, Off Pipeline Bus-stop,<br /> Lagos, Nigeria </p>
                     </div>
                     <p>
                       <i className="fas fa-phone-alt" />
-                      +1 315 369 5943
+                      +234 706 092 0417
                     </p>
                     <p className="mb-0">
                       <i className="fas fa-envelope" />
-                      mentoring@example.com
+                      info@lri.navigatingwithnoel.com
                     </p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Footer = () => {
               <div className="row">
                 <div className="col-12 text-center">
                   <div className="copyright-text">
-                    <p className="mb-0">© 2020 Mentoring. All rights reserved.</p>
+                    <p className="mb-0">© 2022 LRI. All rights reserved.</p>
                   </div>
                 </div>
               </div>

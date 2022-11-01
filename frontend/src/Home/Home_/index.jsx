@@ -4,8 +4,7 @@ import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import {Submit,ICON_1,ICON_2,ICON_3,USER,USER_1,USER_2,USER_3,USER_4,USER_6,USER_7,USER_15,USER_9,USER_11,USER_12,
-    USER_13,IMG_1,IMG_2,IMG_3,IMG_4,IMG_5,IMG_6,IMG_7,IMG_8,BLOG_01,BLOG_02,BLOG_03,BLOG_04} from '../../constant/imagepath_home';
+import {Submit,ICON_1,ICON_2,ICON_3,USER_1,USER_2,USER_3,USER_4,USER_5,USER_6,USER_7,USER_8,USER_9,USER_10,USER_11,USER_12,USER_13,USER_15,IMG_1,IMG_2,IMG_3,IMG_4,IMG_5,IMG_6,IMG_7,IMG_8,BLOG_01,BLOG_02,BLOG_03,BLOG_04} from '../../constant/imagepath_home';
 import { Link, withRouter } from 'react-router-dom';
 
 class Home extends Component {
@@ -136,10 +135,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Donna Yancey</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 001</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Digital Marketer
+                        Noel Abdullahi
                       </div>
                     </div>
                     <div className="rating">							
@@ -148,10 +147,10 @@ class Home extends Component {
                       <i className="fas fa-star filled" />
                       <i className="fas fa-star filled" />
                       <i className="fas fa-star" />
-                      <span className="d-inline-block average-rating">4.4</span>
+                      <span className="d-inline-block average-rating">4.5</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Dallas, Texas</p>
                     </div>
                   </div>
                 </div>
@@ -164,10 +163,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">James Amen</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 002</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        UNIX, Calculus, Trigonometry
+                        Lucy Noel-Abdullahi
                       </div>
                     </div>
                     <div className="rating">						
@@ -179,7 +178,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Dallas, Texas</p>
                     </div>
                   </div>
                 </div>
@@ -192,10 +191,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title">Marvin Downey</h3>
+                  <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 003</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        ASP.NET,Computer Gaming
+                        Esther Dumbiri
                       </div>
                     </div>
                     <div className="rating">						
@@ -207,7 +206,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Lagos, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -220,10 +219,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Betty Hairston</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 004</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Computer Programming
+                        Yvonne Joseph
                       </div>
                     </div>
                     <div className="rating">						
@@ -235,7 +234,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Lagos, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -244,14 +243,14 @@ class Home extends Component {
                 <div className="product">
                   <div className="product-img">
                     <Link to="/app/Mentee/mentor-profile">
-                      <img className="img-fluid" alt="" src={USER} width={600} height={300} />
+                      <img className="img-fluid" alt="" src={USER_5} width={600} height={300} />
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Jose Anderson</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 005</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Digital Marketer
+                        Wole Dada
                       </div>
                     </div>
                     <div className="rating">							
@@ -263,7 +262,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Ibadan, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -276,10 +275,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Aaron Pietrzak</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 006</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        UNIX,Calculus,Trigonometry
+                        Priscilla Adesegun
                       </div>
                     </div>
                     <div className="rating">						
@@ -291,7 +290,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> NewYork, USA</p>
                     </div>
                   </div>
                 </div>
@@ -304,10 +303,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Brian Martinez</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 007</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        ASP.NET,Computer Gaming
+                        Taiye Oyemakinwa
                       </div>
                     </div>
                     <div className="rating">						
@@ -328,14 +327,14 @@ class Home extends Component {
                 <div className="product">
                   <div className="product-img">
                     <Link to="/app/Mentee/mentor-profile">
-                      <img className="img-fluid" alt="" src={USER_15} width={600} height={300} />
+                      <img className="img-fluid" alt="" src={USER_8} width={600} height={300} />
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Misty Lundy</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 008</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Computer Programming
+                        Keyinde Oyemakiwa
                       </div>
                     </div>
                     <div className="rating">
@@ -360,10 +359,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Vern Campbell</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 009</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Digital Marketer
+                        Daniel Dumbiri
                       </div>
                     </div>
                     <div className="rating">
@@ -375,7 +374,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Lagos, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -384,14 +383,14 @@ class Home extends Component {
                 <div className="product">
                   <div className="product-img">
                     <Link to="/app/Mentee/mentor-profile">
-                      <img className="img-fluid" alt="" src={USER_13} width={600} height={300} />
+                      <img className="img-fluid" alt="" src={USER_10} width={600} height={300} />
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Jessica Fogarty</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 010</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        UNIX,Calculus,Trigonometry
+                        Chukwunumso Omefenwa
                       </div>
                     </div>
                     <div className="rating">
@@ -403,7 +402,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Lagos, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -416,10 +415,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Evelyn Stafford</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 011</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        ASP.NET,Computer Gaming
+                        Samuel Omifenwa
                       </div>
                     </div>
                     <div className="rating">
@@ -431,7 +430,7 @@ class Home extends Component {
                       <span className="d-inline-block average-rating">4.4</span>
                     </div>
                     <div className="author-country">
-                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Paris, France</p>
+                      <p className="mb-0"><i className="fas fa-map-marker-alt" /> Lagos, Nigeria</p>
                     </div>
                   </div>
                 </div>
@@ -444,10 +443,10 @@ class Home extends Component {
                     </Link>
                   </div>
                   <div className="product-content">
-                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">Christopher Carroll</Link></h3>
+                    <h3 className="title"><Link to="/app/Mentee/mentor-profile">LRI 012</Link></h3>
                     <div className="author-info">
                       <div className="author-name">
-                        Computer Programming
+                        Queensline Ndubuisi-Godwin
                       </div>
                     </div>
                     <div className="rating">
@@ -473,9 +472,9 @@ class Home extends Component {
         <section className="section path-section">
           <div className="section-header text-center">
             <div className="container">
-              <span>Choose the</span>
-              <h2>Different All Learning Paths</h2>
-              <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              <span>Learning Path</span>
+              <h2>Area Of Interest</h2>
+              <p className="sub-title"></p>
             </div>
           </div>
           <div className="learning-path-col">
@@ -487,7 +486,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_1} alt="" />
                         <div className="text-col">
-                          <h5>Digital Marketer</h5>
+                          <h5>Digital Marketing</h5>
                         </div>
                       </div>
                     </Link>
@@ -499,7 +498,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_2} alt="" />
                         <div className="text-col">
-                          <h5>Ui designer</h5>
+                          <h5>UI/UX designer</h5>
                         </div>
                       </div>
                     </Link>
@@ -511,7 +510,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_3} alt="" />
                         <div className="text-col">
-                          <h5>IT Security</h5>
+                          <h5>AI/ML</h5>
                         </div>
                       </div>
                     </Link>
@@ -523,7 +522,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_4} alt="" />
                         <div className="text-col">
-                          <h5>Front-End Developer</h5>
+                          <h5>Web Developer</h5>
                         </div>
                       </div>
                     </Link>
@@ -535,7 +534,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_5} alt="" />
                         <div className="text-col">
-                          <h5>Web Developer</h5>
+                          <h5>Mobile Developer</h5>
                         </div>
                       </div>
                     </Link>
@@ -547,7 +546,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_6} alt="" />
                         <div className="text-col">
-                          <h5>Administrator</h5>
+                          <h5>Cloud Computing</h5>
                         </div>
                       </div>
                     </Link>
@@ -559,7 +558,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_7} alt="" />
                         <div className="text-col">
-                          <h5>Project Manager</h5>
+                          <h5>Project Management</h5>
                         </div>
                       </div>
                     </Link>
@@ -571,7 +570,7 @@ class Home extends Component {
                       <div className="image-col-merge">
                         <img src={IMG_8} alt="" />
                         <div className="text-col">
-                          <h5>PHP Developer</h5>
+                          <h5>Data Science</h5>
                         </div>
                       </div>
                     </Link>
@@ -583,14 +582,16 @@ class Home extends Component {
           </div>
         </section>
         {/* Path section end */}
+
+
         {/* Blog Section */}
         <section className="section section-blogs">
           <div className="container">
             {/* Section Header */}
             <div className="section-header text-center">
-              <span>Lorem ipsum dolor</span>
+              <span>Stay Updated</span>
               <h2>The Blogs &amp; News</h2>
-              <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className="sub-title"></p>
             </div>
             {/* /Section Header */}
             <div className="row blog-grid-row">
@@ -604,13 +605,13 @@ class Home extends Component {
                     <ul className="entry-meta meta-item">
                       <li>
                         <div className="post-author">
-                          <Link to="/app/Blog/blog-details"><span>Tyrone Roberts</span></Link>
+                          <Link to="/app/Blog/blog-details"><span>Admins & Operations</span></Link>
                         </div>
                       </li>
-                      <li><i className="far fa-clock" /> 4 Dec 2019</li>
+                      <li><i className="far fa-clock" /> 4 Aug 2022</li>
                     </ul>
-                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">What is Lorem Ipsum? Lorem Ipsum is simply</Link></h3>
-                    <p className="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">LRI 2022/2023 Closed!!</Link></h3>
+                    <p className="mb-0">New Participant should join the wait list for the 2023/2024 LRI Programme</p>
                   </div>
                 </div>
                 {/* /Blog Post */}
@@ -625,13 +626,13 @@ class Home extends Component {
                     <ul className="entry-meta meta-item">
                       <li>
                         <div className="post-author">
-                          <Link to="/app/Blog/blog-details"><span>Brittany Garcia</span></Link>
+                          <Link to="/app/Blog/blog-details"><span>Management</span></Link>
                         </div>
                       </li>
-                      <li><i className="far fa-clock" /> 3 Dec 2019</li>
+                      <li><i className="far fa-clock" /> 4 Aug 2022</li>
                     </ul>
-                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">Contrary to popular belief, Lorem Ipsum is</Link></h3>
-                    <p className="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">Coming Soon</Link></h3>
+                    <p className="mb-0">Await the New LRI Digital Application for Web and mobile, for the 2023/2024 Cohort</p>
                   </div>
                 </div>
                 {/* /Blog Post */}
@@ -646,13 +647,13 @@ class Home extends Component {
                     <ul className="entry-meta meta-item">
                       <li>
                         <div className="post-author">
-                          <Link to="/app/Blog/blog-details"><span>Allen Davis</span></Link>
+                          <Link to="/app/Blog/blog-details"><span>Noel Abdullahi</span></Link>
                         </div>
                       </li>
-                      <li><i className="far fa-clock" /> 3 Dec 2019</li>
+                      <li><i className="far fa-clock" /> 13 Oct 2022</li>
                     </ul>
-                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">The standard chunk of Lorem Ipsum used</Link></h3>
-                    <p className="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">NWN Digital Academy</Link></h3>
+                    <p className="mb-0">a platform where individuals can learn and grow for free and pay afterwards</p>
                   </div>
                 </div>
                 {/* /Blog Post */}
@@ -667,13 +668,13 @@ class Home extends Component {
                     <ul className="entry-meta meta-item">
                       <li>
                         <div className="post-author">
-                          <Link to="/app/Blog/blog-details"><span>William Lawrence</span></Link>
+                          <Link to="/app/Blog/blog-details"><span>Management</span></Link>
                         </div>
                       </li>
-                      <li><i className="far fa-clock" /> 2 Dec 2019</li>
+                      <li><i className="far fa-clock" /> 30 Jul 2022</li>
                     </ul>
-                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">The standard Lorem Ipsum passage, used</Link></h3>
-                    <p className="mb-0">Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor.</p>
+                    <h3 className="blog-title"><Link to="/app/Blog/blog-details">Graduation! Graduation!</Link></h3>
+                    <p className="mb-0">Congratulations to the first set of the NWN Life Ready Individual programme, thank you for your time and commitment</p>
                   </div>
                 </div>
                 {/* /Blog Post */}
@@ -691,20 +692,20 @@ class Home extends Component {
             <div className="row">
               <div className="col-12 col-md-4">
                 <div className="statistics-list text-center">
-                  <span>500+</span>
-                  <h3>Happy Clients</h3>
+                  <span>16+</span>
+                  <h3>Mentors</h3>
                 </div>
               </div>
               <div className="col-12 col-md-4">
                 <div className="statistics-list text-center">
-                  <span>120+</span>
-                  <h3>Online Appointments</h3>
+                  <span>100+</span>
+                  <h3>Mentee's</h3>
                 </div>
               </div>
               <div className="col-12 col-md-4">
                 <div className="statistics-list text-center">
                   <span>100%</span>
-                  <h3>Job Satisfaction</h3>
+                  <h3>Transformation</h3>
                 </div>
               </div>
             </div>
