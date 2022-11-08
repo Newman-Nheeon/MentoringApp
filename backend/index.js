@@ -1,15 +1,21 @@
+import dotenv from 'dotenv'
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
-import cors from 'cors'
+import cors from 'cors';
 
 
+
+//middlewares
 const app = express();
 app.use (cors());
+app.use(express.json())
+dotenv.config()
 
 
 //Database Connection Setup
-const CONNECTION_URL = 'mongodb+srv://MentoringApp:Newman11@cluster0.boaiic7.mongodb.net/?retryWrites=true&w=majority'
+dotenv.config()
+const CONNECTION_URL = process.env.DB;
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
