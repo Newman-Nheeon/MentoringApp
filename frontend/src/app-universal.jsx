@@ -27,7 +27,7 @@ export default class AppUniversal extends Component {
 	render(){
 		const { location, match } = this.props;
 		if (location.pathname === '/') {
-			return (<Redirect to={'/app/index'} />);		 
+			return (<Redirect to={'/login'} />);		 
 	  	}
 		return (
 			<Switch>

@@ -32,20 +32,20 @@ class Home extends Component {
                 <form >
                   <div className="form-group">
                     <label className="form-control-label">Email Address</label>
-                    <input type="email" placeholder='Enter your NWN email address' className="form-control" />
+                    <input type="email" placeholder='Enter your email address' className="form-control" required />
                   </div>
                   <div className="form-group">
                     <label className="form-control-label">Password</label>
                     <div className="pass-group">
-                      <input type="password" placeholder='Enter your password' className="form-control pass-input" />
+                      <input type="password" placeholder='Enter your password' className="form-control pass-input" required />
                       <span className="fas fa-eye toggle-password" />
                     </div>
                   </div>
                   <div className="text-right">
                     <Link className="forgot-link" to="/forgot-password">Forgot Password ?</Link>
                   </div>
-                  <Link className="btn btn-primary login-btn" to="/app/index">Login</Link>
-                  {/* <button className="btn btn-primary login-btn" type="submit">Login</button> */}
+                  
+                  <button className="btn btn-primary login-btn" type="submit">Login</button>
                   <div className="text-center dont-have">Don’t have an account? <Link to="/register">Register</Link></div>
                 </form>
               </div>
