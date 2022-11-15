@@ -12,7 +12,7 @@ jobs:
                   command: |
                     cd frontend 
                     npm install 
-                    # npm i --legacy-peer-deps
+                    npm i --legacy-peer-deps
                     npm run build 
             - save_cache:
                   paths: [frontend/node_modules]
@@ -51,7 +51,7 @@ jobs:
                   command: |
                     cd frontend
                     npm install
-                    # npm i --legacy-peer-deps
+                    npm i --legacy-peer-deps
                     npm run test 
     test-backend:
         docker:
@@ -81,7 +81,7 @@ jobs:
                   command: |
                     cd frontend
                     npm install 
-                    # npm i --legacy-peer-deps
+                    npm i --legacy-peer-deps
                     npm audit fix --audit-level=critical --force
                     npm audit --audit-level=critical 
     scan-backend:

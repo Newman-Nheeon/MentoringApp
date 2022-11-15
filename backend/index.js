@@ -3,6 +3,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import { login } from "./routes/login";
+import { register } from "./routes/register";
 
 
 
@@ -11,6 +13,10 @@ const app = express();
 app.use (cors());
 app.use(express.json())
 dotenv.config()
+
+//routes 
+app.use("api/login", login);
+app.use("api/register", register);
 
 
 //Database Connection Setup

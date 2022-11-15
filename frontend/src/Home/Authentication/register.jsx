@@ -1,11 +1,14 @@
-
 import React, { Component } from 'react';
+import { useState } from 'react';
+
 // import { Helmet } from "react-helmet";
+
 import { Link } from 'react-router-dom';
 import {AppLogo} from '../../constant/imagepath_home';
 
 class Home extends Component {
    render() {
+
       return ( 
         
       <div className="bg-pattern-style bg-pattern-style-register">
@@ -15,9 +18,10 @@ class Home extends Component {
           <div className="account-box">
             <div className="login-right">
               <div className="login-header">
-                <h3><span>Mentoring</span> Register</h3>
+                <h3><span>LRI</span> Registeration</h3>
                 <p className="text-muted">Access to our dashboard</p>
               </div>
+
               {/* Register Form */}
               <form action="/app/index">
                 <div className="row">

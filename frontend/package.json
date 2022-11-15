@@ -59,7 +59,10 @@
     "reactstrap": "^8.5.1",
     "recharts": "^1.8.5",
     "redux": "^4.2.0",
-    "redux-thunk": "^2.4.1"
+    "redux-thunk": "^2.4.1",
+    "stream-chat": "^8.1.0",
+    "stream-chat-react": "^10.4.0",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
